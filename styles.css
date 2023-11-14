@@ -57,7 +57,17 @@ h3:first-child {
     background-color: rgb(172, 109, 109);
 }
 
+#tribute-info ul {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.5em;
+    background-color: bisque;
+}
 
+li {
+    margin: 1.1em 0;
+}
 
 .bold {
     font-weight: 700;
