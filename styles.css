@@ -9,11 +9,16 @@
 
 body {
     background-color: var(--bg-body);
+    font-family: 'Roboto', sans-serif;
 }
 
 #main {
     text-align: center;
     background-color: var(--bg-main);
+}
+
+#title {
+    font-size: 2.5em;
 }
 
 figure .image {
@@ -23,5 +28,5 @@ figure .image {
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: 700;
 }
