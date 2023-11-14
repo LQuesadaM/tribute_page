@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-body: #FFFFFF;
+    --bg-main: #EEEEEE;
+}
+
+body {
+    background-color: var(--bg-body);
+}
+
+#main {
+    text-align: center;
+    background-color: var(--bg-main);
+}
+
+figure .image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
